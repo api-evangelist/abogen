@@ -1,8 +1,15 @@
 aid: abogen
 name: Abogen
-description: 'Abogen is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Abogen Biosciences (Suzhou Abogen Biosciences Co., Ltd. / 苏州艾博生物科技有限公司)
+  is a clinical-stage biotechnology company founded in January 2019 and headquartered in Suzhou, China,
+  dedicated to developing transformative medicines through messenger RNA (mRNA) innovation. The company
+  has built full-scale in-house capabilities spanning the entire mRNA drug development cycle - protein
+  engineering, mRNA sequence design and synthesis, proprietary lipid nanoparticle (LNP) delivery,
+  formulation, and commercial-scale manufacturing. Its product pipeline covers infectious disease
+  prevention and cancer immunotherapy, and it has advanced an EUA mRNA product along with additional
+  clinical-stage candidates. Abogen is a portfolio company of the SoftBank Vision Fund. Abogen is a
+  pharmaceutical / biotechnology company and does not currently publish a public developer platform,
+  API, or SDK; this profile captures its corporate identity in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/abogen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +17,49 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://abogenbio.com/assets/img/logo.png
 tags:
 - Company
 - Health Tech
+- Biotechnology
+- Pharmaceuticals
+- mRNA
+- Therapeutics
+- Drug Development
+- Life Sciences
 apis: []
+common:
+- type: Website
+  name: Abogen Biosciences Website
+  url: https://abogenbio.com/
+- type: PrivacyPolicy
+  name: Privacy Policy
+  url: https://abogenbio.com/privacy/
+- type: Support
+  name: Contact Us
+  url: https://abogenbio.com/contact/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
